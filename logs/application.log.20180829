@@ -1,0 +1,72 @@
+2018-08-29 10:17:22,667|INFO |com.ulopay.ServerBootstrap|Starting ServerBootstrap on 8f725dfe5d8d with PID 7316 (/home/bizsiv/spdb-mch-2.0/lib/boot-service-1.0.29-SNAPSHOT.jar started by root in /home/bizsiv/spdb-mch-2.0)
+2018-08-29 10:17:22,670|INFO |com.ulopay.ServerBootstrap|No active profile set, falling back to default profiles: default
+2018-08-29 10:17:28,894|INFO |com.ulopay.ESignInitService|E签宝认证初始化开始执行...
+2018-08-29 10:17:28,913|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. url:http://121.40.164.61:8080/tgmonitor/rest/app!getAPIInfo2
+2018-08-29 10:17:28,915|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. interval:7200000
+2018-08-29 10:17:28,987|INFO |esign.utils.httppool.HttpPool|configure pool. 
+set connection pool. [maxTotalConnection] => 10
+set connection pool. [defaultMaxPerRouteConnection] => 2
+set connection pool. [routes] => 0
+2018-08-29 10:17:29,300|INFO |com.ulopay.ESignInitService|E签宝返回信息: errorCode: 0, msg:成功
+2018-08-29 10:17:29,300|INFO |com.ulopay.ESignInitService|E签宝认证初始化执行完成...
+2018-08-29 10:17:31,978|WARN |com.jolbox.bonecp.BoneCPConfig|LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2018-08-29 10:17:32,386|WARN |c.a.ebean.internal.DefaultContainer|DataSource [default] has autoCommit defaulting to true!
+2018-08-29 10:17:33,214|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRolePermission] has no unique id set
+2018-08-29 10:17:33,216|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRoleFuncTree] has no unique id set
+2018-08-29 10:17:33,217|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.payment.TransCenter] has no unique id set
+2018-08-29 10:17:33,221|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.dealer.DealerExamLog] has no unique id set
+2018-08-29 10:17:33,223|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.PlatCounter] has no unique id set
+2018-08-29 10:17:33,227|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemUserRoleRef] has no unique id set
+2018-08-29 10:17:34,670|WARN |o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration|spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-08-29 10:17:34,925|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.func_code c2, t0.func_name c3, t0.module_code c4, t0.module_name c5, t0.key_code c6, t0.conf_name c7, t0.conf_type c8, t0.store_range c9, t0.store_dir c10, t0.value c11, t0.ordered c12, t0.is_show c13, t0.is_must c14, t0.descript c15, t0.add_time c16, t0.update_version c17 from system_global_config t0 where key_code = 'HR_PAY_ACCOUNT'  and domain_id = 0  limit 1
+2018-08-29 10:17:34,938|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40 from trade_settle_cash t0 where t0.final_state = 1 
+2018-08-29 10:17:35,052|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40, t0.cash_ids c41, t0.payer_card_no c42, t0.payer_card_name c43, t0.payer_branch_no c44 from trade_settle_md_cash t0 where t0.final_state = 1 
+2018-08-29 10:17:35,070|INFO |com.ulopay.ServerBootstrap|Started ServerBootstrap in 12.914 seconds (JVM running for 13.551)
+2018-08-29 10:18:53,304|INFO |com.ulopay.ServerBootstrap|Starting ServerBootstrap on 8f725dfe5d8d with PID 7378 (/home/bizsiv/spdb-mch-2.0/lib/boot-service-1.0.29-SNAPSHOT.jar started by root in /home/bizsiv/spdb-mch-2.0)
+2018-08-29 10:18:53,308|INFO |com.ulopay.ServerBootstrap|No active profile set, falling back to default profiles: default
+2018-08-29 10:18:59,665|INFO |com.ulopay.ESignInitService|E签宝认证初始化开始执行...
+2018-08-29 10:18:59,685|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. url:http://121.40.164.61:8080/tgmonitor/rest/app!getAPIInfo2
+2018-08-29 10:18:59,687|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. interval:7200000
+2018-08-29 10:18:59,760|INFO |esign.utils.httppool.HttpPool|configure pool. 
+set connection pool. [maxTotalConnection] => 10
+set connection pool. [defaultMaxPerRouteConnection] => 2
+set connection pool. [routes] => 0
+2018-08-29 10:19:00,027|INFO |com.ulopay.ESignInitService|E签宝返回信息: errorCode: 0, msg:成功
+2018-08-29 10:19:00,028|INFO |com.ulopay.ESignInitService|E签宝认证初始化执行完成...
+2018-08-29 10:19:02,740|WARN |com.jolbox.bonecp.BoneCPConfig|LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2018-08-29 10:19:03,137|WARN |c.a.ebean.internal.DefaultContainer|DataSource [default] has autoCommit defaulting to true!
+2018-08-29 10:19:03,954|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.dealer.DealerExamLog] has no unique id set
+2018-08-29 10:19:03,956|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRolePermission] has no unique id set
+2018-08-29 10:19:03,957|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRoleFuncTree] has no unique id set
+2018-08-29 10:19:03,958|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemUserRoleRef] has no unique id set
+2018-08-29 10:19:03,959|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.PlatCounter] has no unique id set
+2018-08-29 10:19:03,960|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.payment.TransCenter] has no unique id set
+2018-08-29 10:19:05,397|WARN |o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration|spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-08-29 10:19:05,637|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.func_code c2, t0.func_name c3, t0.module_code c4, t0.module_name c5, t0.key_code c6, t0.conf_name c7, t0.conf_type c8, t0.store_range c9, t0.store_dir c10, t0.value c11, t0.ordered c12, t0.is_show c13, t0.is_must c14, t0.descript c15, t0.add_time c16, t0.update_version c17 from system_global_config t0 where key_code = 'HR_PAY_ACCOUNT'  and domain_id = 0  limit 1
+2018-08-29 10:19:05,651|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40 from trade_settle_cash t0 where t0.final_state = 1 
+2018-08-29 10:19:05,660|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40, t0.cash_ids c41, t0.payer_card_no c42, t0.payer_card_name c43, t0.payer_branch_no c44 from trade_settle_md_cash t0 where t0.final_state = 1 
+2018-08-29 10:19:05,662|INFO |com.ulopay.ServerBootstrap|Started ServerBootstrap in 12.865 seconds (JVM running for 13.499)
+2018-08-29 10:22:19,398|INFO |com.ulopay.ServerBootstrap|Starting ServerBootstrap on 8f725dfe5d8d with PID 7450 (/home/bizsiv/spdb-mch-2.0/lib/boot-service-1.0.29-SNAPSHOT.jar started by root in /home/bizsiv/spdb-mch-2.0)
+2018-08-29 10:22:19,401|INFO |com.ulopay.ServerBootstrap|No active profile set, falling back to default profiles: default
+2018-08-29 10:22:25,649|INFO |com.ulopay.ESignInitService|E签宝认证初始化开始执行...
+2018-08-29 10:22:25,669|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. url:http://121.40.164.61:8080/tgmonitor/rest/app!getAPIInfo2
+2018-08-29 10:22:25,670|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. interval:7200000
+2018-08-29 10:22:25,743|INFO |esign.utils.httppool.HttpPool|configure pool. 
+set connection pool. [maxTotalConnection] => 10
+set connection pool. [defaultMaxPerRouteConnection] => 2
+set connection pool. [routes] => 0
+2018-08-29 10:22:26,009|INFO |com.ulopay.ESignInitService|E签宝返回信息: errorCode: 0, msg:成功
+2018-08-29 10:22:26,009|INFO |com.ulopay.ESignInitService|E签宝认证初始化执行完成...
+2018-08-29 10:22:28,662|WARN |com.jolbox.bonecp.BoneCPConfig|LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2018-08-29 10:22:29,109|WARN |c.a.ebean.internal.DefaultContainer|DataSource [default] has autoCommit defaulting to true!
+2018-08-29 10:22:29,855|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRolePermission] has no unique id set
+2018-08-29 10:22:29,856|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRoleFuncTree] has no unique id set
+2018-08-29 10:22:29,858|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.payment.TransCenter] has no unique id set
+2018-08-29 10:22:29,861|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.dealer.DealerExamLog] has no unique id set
+2018-08-29 10:22:29,863|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.PlatCounter] has no unique id set
+2018-08-29 10:22:29,868|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemUserRoleRef] has no unique id set
+2018-08-29 10:22:31,387|WARN |o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration|spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-08-29 10:22:31,638|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.func_code c2, t0.func_name c3, t0.module_code c4, t0.module_name c5, t0.key_code c6, t0.conf_name c7, t0.conf_type c8, t0.store_range c9, t0.store_dir c10, t0.value c11, t0.ordered c12, t0.is_show c13, t0.is_must c14, t0.descript c15, t0.add_time c16, t0.update_version c17 from system_global_config t0 where key_code = 'HR_PAY_ACCOUNT'  and domain_id = 0  limit 1
+2018-08-29 10:22:31,651|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40 from trade_settle_cash t0 where t0.final_state = 1 
+2018-08-29 10:22:31,659|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40, t0.cash_ids c41, t0.payer_card_no c42, t0.payer_card_name c43, t0.payer_branch_no c44 from trade_settle_md_cash t0 where t0.final_state = 1 
+2018-08-29 10:22:31,662|INFO |com.ulopay.ServerBootstrap|Started ServerBootstrap in 12.768 seconds (JVM running for 13.394)

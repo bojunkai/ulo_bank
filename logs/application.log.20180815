@@ -1,0 +1,49 @@
+2018-08-15 01:11:51,415|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 03:11:51,403|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 03:25:30,552|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.name c1, t0.hosts c2, t0.descript c3, t0.owner c4, t0.exp_date c5, t0.is_enabled c6, t0.created_time c7, t0.creator c8, t0.modify_time c9, t0.modify_by c10, t0.path c11, t0.bank_no c12, t0.app_id c13, t0.update_version c14 from plat_domain t0 where t0.hosts = 'mch.newplat-test.test.szulodev.com' 
+2018-08-15 03:25:30,554|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 0 
+2018-08-15 03:25:30,571|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 5 
+2018-08-15 03:25:30,583|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.conf_type,t0.key_code,t0.value from system_global_config t0 where is_show =1
+2018-08-15 05:11:51,402|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 07:11:51,406|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 09:11:51,409|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 10:17:00,318|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.name c1, t0.hosts c2, t0.descript c3, t0.owner c4, t0.exp_date c5, t0.is_enabled c6, t0.created_time c7, t0.creator c8, t0.modify_time c9, t0.modify_by c10, t0.path c11, t0.bank_no c12, t0.app_id c13, t0.update_version c14 from plat_domain t0 where t0.hosts = 'mch.newplat-test.test.szulodev.com' 
+2018-08-15 10:17:00,320|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 0 
+2018-08-15 10:17:00,322|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 5 
+2018-08-15 10:17:00,333|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.conf_type,t0.key_code,t0.value from system_global_config t0 where is_show =1
+2018-08-15 11:11:51,617|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 13:11:51,405|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 14:15:54,050|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.name c1, t0.hosts c2, t0.descript c3, t0.owner c4, t0.exp_date c5, t0.is_enabled c6, t0.created_time c7, t0.creator c8, t0.modify_time c9, t0.modify_by c10, t0.path c11, t0.bank_no c12, t0.app_id c13, t0.update_version c14 from plat_domain t0 where t0.hosts = 'mch.newplat-test.test.szulodev.com' 
+2018-08-15 14:15:54,051|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 0 
+2018-08-15 14:15:54,053|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.conf_name c2, t0.conf_code c3, t0.conf_type c4, t0.conf_content c5, t0.conf_property c6, t0.conf_descript c7 from plat_domain_cfg t0 where t0.domain_id = 5 
+2018-08-15 14:15:54,080|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.conf_type,t0.key_code,t0.value from system_global_config t0 where is_show =1
+2018-08-15 15:11:51,417|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 17:11:51,409|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 17:52:31,785|INFO |com.ulopay.ServerBootstrap|Starting ServerBootstrap on 5721a7af625b with PID 18168 (/home/tester/newversion/cloud_test/pay_mch/service-main-2.0/lib/boot-service-1.0.29-SNAPSHOT.jar started by cloud_test in /home/tester/newversion/cloud_test/pay_mch/service-main-2.0)
+2018-08-15 17:52:31,795|INFO |com.ulopay.ServerBootstrap|No active profile set, falling back to default profiles: default
+2018-08-15 17:52:39,354|INFO |com.ulopay.ESignInitService|E签宝认证初始化开始执行...
+2018-08-15 17:52:39,383|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. url:http://openapi.tsign.cn:8080/tgmonitor/rest/app!getAPIInfo2
+2018-08-15 17:52:39,385|INFO |e.u.m.adapter.ModelsInitializer|refresh the models. interval:7200000
+2018-08-15 17:52:39,482|INFO |esign.utils.httppool.HttpPool|configure pool. 
+set connection pool. [maxTotalConnection] => 10
+set connection pool. [defaultMaxPerRouteConnection] => 2
+set connection pool. [routes] => 0
+2018-08-15 17:52:39,714|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 17:52:39,715|INFO |com.ulopay.ESignInitService|E签宝返回信息: errorCode: 0, msg:成功
+2018-08-15 17:52:39,715|INFO |com.ulopay.ESignInitService|E签宝认证初始化执行完成...
+2018-08-15 17:52:42,629|WARN |com.jolbox.bonecp.BoneCPConfig|LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2018-08-15 17:52:43,101|WARN |c.a.ebean.internal.DefaultContainer|DataSource [default] has autoCommit defaulting to true!
+2018-08-15 17:52:44,039|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.dealer.DealerExamLog] has no unique id set
+2018-08-15 17:52:44,040|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRoleFuncTree] has no unique id set
+2018-08-15 17:52:44,042|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.payment.TransCenter] has no unique id set
+2018-08-15 17:52:44,043|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemRolePermission] has no unique id set
+2018-08-15 17:52:44,045|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.PlatCounter] has no unique id set
+2018-08-15 17:52:44,048|WARN |c.a.e.s.deploy.BeanDescriptorManager|Bean [com.ulopay.domain.systems.SystemUserRoleRef] has no unique id set
+2018-08-15 17:52:46,141|WARN |o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration|spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-08-15 17:52:46,455|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.domain_id c1, t0.func_code c2, t0.func_name c3, t0.module_code c4, t0.module_name c5, t0.key_code c6, t0.conf_name c7, t0.conf_type c8, t0.store_range c9, t0.store_dir c10, t0.value c11, t0.ordered c12, t0.is_show c13, t0.is_must c14, t0.descript c15, t0.add_time c16, t0.update_version c17 from system_global_config t0 where key_code = 'HR_PAY_ACCOUNT'  and domain_id = 0  limit 1
+2018-08-15 17:52:46,486|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40 from trade_settle_cash t0 where t0.final_state = 1 
+2018-08-15 17:52:46,501|DEBUG|c.j.bonecp.PreparedStatementHandle|select t0.id c0, t0.settle_no c1, t0.ally c2, t0.ally_name c3, t0.spec_no c4, t0.merchant_name c5, t0.agency_code c6, t0.agency_name c7, t0.act_id c8, t0.act_name c9, t0.act_cardno c10, t0.eq_total_qua c11, t0.eq_total_fee c12, t0.eq_refund_qua c13, t0.eq_refund_fee c14, t0.poundage c15, t0.refund_podg c16, t0.trd_podg c17, t0.trd_refund_podg c18, t0.cash_podg c19, t0.cash_total_fee c20, t0.cash_state c21, t0.creator c22, t0.modify_time c23, t0.modifier c24, t0.modify_cause c25, t0.create_time c26, t0.act_type c27, t0.act_iden c28, t0.bank_proxy_code c29, t0.bank_name c30, t0.bank_card_no c31, t0.bank_branch_name c32, t0.bank_branch_no c33, t0.cash_type c34, t0.card_type c35, t0.retry_times c36, t0.sync_status c37, t0.sync_mode c38, t0.final_state c39, t0.out_trade_no c40, t0.cash_ids c41, t0.payer_card_no c42, t0.payer_card_name c43, t0.payer_branch_no c44 from trade_settle_md_cash t0 where t0.final_state = 1 
+2018-08-15 17:52:46,504|INFO |com.ulopay.ServerBootstrap|Started ServerBootstrap in 15.395 seconds (JVM running for 16.177)
+2018-08-15 19:52:39,863|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 21:52:39,861|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
+2018-08-15 23:52:39,868|INFO |esign.utils.modeladapter.impl.f|this api url is not exist. api:sdkDocPreservation
