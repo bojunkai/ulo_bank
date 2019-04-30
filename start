@@ -2,13 +2,14 @@
 ##########################################################################################
 #                                       BOOT SERVER                                      #
 ##########################################################################################
+source /etc/profile
 scriptdir=`dirname $0`
 APP_HOME=$scriptdir
 APP_CONFIG="conf/application.properties"
 APP_PORT="10399"
 BOOT_OPTS="--server.port=$APP_PORT"
 JAVA_OPTS="-Dfile.encoding=UTF-8 -Xmx1024M -Xms64M -Xss256K -XX:MaxPermSize=256M -XX:+UseParallelGC "
-JAVA_HOME_PATH="/opt/jdk1.8.0"
+JAVA_HOME_PATH="/home/jdk1.8.0_151"
 
 CL_ERR='\e[0;31m'
 CL_INFO='\e[0;32m'
